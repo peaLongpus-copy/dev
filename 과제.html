@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        header { background: white;}
+        section { background: skyblue;}
+        footer {  background: yellow;}
+        ol {padding-left: 25px;}
+    </style>
+</head>
+<body>
+    <header><h2>명함 신청 페이지</h2></header>
+    <section>
+        <ol>
+            <p>
+                <li>
+                    학년 : <input type="text" size="14" list="grade">
+                    <datalist id="grade">
+                        <option value="1학년"></option>
+                        <option value="2학년"></option>
+                        <option value="3학년"></option>
+                    </datalist>
+                </li>
+            </p>
+            <p>
+                <li>
+                    반 : <input type="text" size="14" list="class">
+                    <datalist id="class">
+                        <option value="1반"></option>
+                        <option value="2반"></option>
+                        <option value="3반"></option>
+                        <option value="4반"></option>
+                    </datalist>
+                </li>
+            </p>
+            <p>
+                <li>
+                    번호 : <input type="text" size="14">
+                </li>
+            </p>
+            <p>
+                <li>
+                    이름 : <input type="text" size="14">
+                </li>
+            </p>
+            <p>
+                <li>
+                    <p>원하는 시안 번호 선택</p>
+                    <img src="https://lh7-rt.googleusercontent.com/formsz/AN7BsVCherQ6yMUjmXW0gCRKc1nZuHfLQV0kwh2n64XaO7WTbSKZLBxS2T-1ne4VtoAT8k6LIcmieNu_M9Mf6iw7wukTLGHW0y3pX21-pIelI0Vv2llcuQYizn-Q3LHjM5uVBhqVYeuuCXrvyjAVyvy2kf5QGYvTdBhMJCVx?key=zXC0opYBWS7IVmphVU1lkQ" width="600">
+                    <p>
+                        <input type="radio" name="design" value="1"> 1안
+                        <input type="radio" name="design" value="2"> 2안
+                        <input type="radio" name="design" value="3"> 3안
+                        <input type="radio" name="design" value="4"> 4안
+                    </p>
+                    <p>
+                        <input type="radio" name="design" value="5"> 5안
+                        <input type="radio" name="design" value="6"> 6안
+                        <input type="radio" name="design" value="7"> 7안
+                        <input type="radio" name="design" value="8"> 8안
+                    </p>
+
+                </li>
+            </p>
+            <p>
+                <li>
+                    <p>내가 명함에 넣고 싶은 항목 선택</p>
+                    <p>
+                        <input type="checkbox" name="items" value="name"> 이름
+                        <input type="checkbox" name="items" value="email"> 이메일
+                    </p>
+                    <p>
+                        <input type="checkbox" name="items" value="discord"> 디스코드 아이디
+                        <input type="checkbox" name="items" value="github"> 깃헙 아이디
+                    </p>
+                    <p>
+                        <input type="checkbox" name="items" value="interest"> 관심분야
+                        <input type="checkbox" name="items" value="phone"> 휴대폰 번호
+                    </p>
+                </li>
+            </p>
+            <p>
+                <li>
+                    <p>7. 기타 건의사항</p>
+                    <p>
+                        <textarea name="suggestion" cols="20" rows="10"></textarea>
+                    </p>
+                    <p>
+                        <input type="submit" value="전송하기">
+                        
+                        <button type="reset">초기화하기</button>
+                    </p>
+                </li>
+            </p>
+        </ol>
+    </section>
+    
+    <footer><h2>QnA</h2>
+        <details>
+            <summary>언제까지 내요?</summary>
+            <p>3월 11일까지 제출합니다</p>
+        </details>
+
+        <details>
+            <summary>명함 얼마에요?</summary>
+            <p>무료입니다</p>
+        </details>
+        
+        <details>
+            <summary>늦게 내면 어떻게돼요?</summary>
+            <p>1학년 전원의 명함발급이 늦어집니다</p>
+        </details>
+    </footer>
+</body>
+</html>
