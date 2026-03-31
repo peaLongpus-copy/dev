@@ -11,6 +11,10 @@
         section { width: 70%; height: 70%; float: left; background: green;}
         aside { width: 15%; height: 70%; float: left; background: grey;}
         footer { width: 100%; height: 15%; float: left; background: violet;}
+        h2{ color:gray; font-size: 25px;}
+        hr{ border: 3px solid greenyellow}
+        span{color:red; font-size: 20;}
+        body{background-color: rgb(1, 254, 254);}
     </style>
 </head>
 <body>
@@ -136,7 +140,26 @@
                     </button><br>
                 
            
-
+    <input type="color" value="#003FF"
+        onchange="document.body.style.color=this.value">
 </form>
+<hr>
+<figure id="1-1">
+    <figcaption>cat() 함수 사용</figcaption>
+    <pre>
+        <code>function cat() { cat("야옹"); }</code>
+    </pre>
+    <hr>
+    <small>실행 결과</small>
+    <pre>
+        <img src="https://placecats.com/50/50"                                                   >
+    </pre>
+</figure>
 </body>
+<input type="month"><br>
+<input type="week"><br>
+<input type="date"><br>
+<input type="datetime-local"><br>
+<input type="email" aria-placeholder="id@gmail.com"><br>
+
 </html>
